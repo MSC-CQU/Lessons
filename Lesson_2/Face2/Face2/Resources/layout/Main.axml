@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+    style="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="170.0dp"
+        android:id="@+id/imageView1" />
+    <Button
+        android:text="Camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/camera"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp" />
+    <Button
+        android:text="Upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp" />
+    <Button
+        android:text="Check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/check"
+        android:layout_marginLeft="60.0dp"
+        android:layout_marginRight="60.0dp" />
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="41.3dp"
+        android:id="@+id/textView1"
+        android:fadeScrollbars="true" />
+</LinearLayout>
