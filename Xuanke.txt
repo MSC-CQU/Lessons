@@ -3,7 +3,7 @@ http://222.198.128.126/
 http://202.202.1.41/
 
 登录：
-/_data/index_login.aspx
+_data/index_login.aspx
 
 主修/選修課程：
 wsxk/stu_btx.aspx
